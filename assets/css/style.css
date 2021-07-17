@@ -75,7 +75,8 @@ h1, h2, h3, h4, h5, h6 {
 #header.header-scrolled {
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   padding: 15px 0;
-  background: #fff;
+  background: #061121
+  ;
 }
 
 #header .logo h1 {
@@ -126,7 +127,7 @@ h1, h2, h3, h4, h5, h6 {
 .nav-menu a {
   display: block;
   position: relative;
-  color: #fff;
+  color: #ca9800;
   padding: 8px 0 12px 25px;
   transition: 0.3s;
   font-size: 14px;
@@ -134,7 +135,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
-  color: #3498db;
+  color: #b11a04;
   text-decoration: none;
 }
 
