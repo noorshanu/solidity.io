@@ -127,7 +127,7 @@ h1, h2, h3, h4, h5, h6 {
 .nav-menu a {
   display: block;
   position: relative;
-  color: #ca9800;
+  color: #ffac3d;
   padding: 8px 0 12px 25px;
   transition: 0.3s;
   font-size: 14px;
@@ -521,17 +521,17 @@ pre {
     color: #555;
 }
 .cm-atom, .prism .type-name {
-    color: #ca9800;
+    color:#ffac3d;
 }
 .btn1{
   margin-right: 28px;
-  border-color: #ca9800;
+  border-color: #ffac3d;
   color: #b11a04;
 }
 .btn2{
   margin-right: 28px;
   border-color:#b11a04 ;
-  color:  #ca9800;
+  color:  #ffac3d;
 }
 /*--------------------------------------------------------------
 # Sections General
@@ -555,14 +555,14 @@ section {
   font-weight: bold;
   text-transform: uppercase;
   position: relative;
-  color: #222222;
+  color: #ffac3d;
 }
 
 .section-title h2::before, .section-title h2::after {
   content: '';
   width: 50px;
   height: 2px;
-  background: #3498db;
+  background: #ff2305;
   display: inline-block;
 }
 
@@ -623,8 +623,11 @@ section {
 --------------------------------------------------------------*/
 #about{
 
-  background-image: url("../img/back5.jpg");
+  background-image: url("../img/back5.png");
   background-size: cover;
+}
+#about img{
+  height: 301px;
 }
 
 .about .content h3 {
