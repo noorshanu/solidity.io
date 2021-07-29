@@ -714,7 +714,7 @@ section {
 .counts .content .count-box i {
   display: block;
   font-size: 36px;
-  color: #3498db;
+  color:  #ffac3d;
   float: left;
 }
 
@@ -781,7 +781,7 @@ section {
 .services .icon-box::before {
   content: '';
   position: absolute;
-  background: #e1f0fa;
+  background: #ffac3d8c;
   right: -60px;
   top: -40px;
   width: 100px;
@@ -792,7 +792,7 @@ section {
 }
 
 .services .icon-box:hover::before {
-  background: #3498db;
+  background: #ffac3d;
   right: 0;
   top: 0;
   width: 100%;
@@ -808,7 +808,7 @@ section {
   border-radius: 50%;
   width: 60px;
   height: 60px;
-  background: #3498db;
+  background: #ffac3d;
   transition: all 0.3s ease-in-out;
 }
 
@@ -843,7 +843,7 @@ section {
 }
 
 .services .icon-box:hover .icon i {
-  color: #3498db;
+  color: #ffac3d;
 }
 
 /*--------------------------------------------------------------
@@ -912,6 +912,8 @@ section {
 --------------------------------------------------------------*/
 .features .icon-box {
   display: flex;
+  border: 1px solid;
+  border-color: #f6a73c;
   align-items: center;
   padding: 20px;
   background: #f6f6f6;
