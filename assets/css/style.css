@@ -5,8 +5,9 @@
 body {
  font-family: Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;
     font-weight: 300;
-    color: #000000;
+    color: #fff;
     font-size: 18px;
+    background-color: #061121;
     line-height: 28.8px;
 }
 
@@ -542,7 +543,7 @@ section {
 }
 
 .section-bg {
-  background-color: #f7fbfe;
+  background-color: #061121;
 }
 
 .section-title {
@@ -845,7 +846,9 @@ section {
 .services .icon-box:hover .icon i {
   color: #ffac3d;
 }
-
+.description{
+  color: black;
+}
 /*--------------------------------------------------------------
 # More Services
 --------------------------------------------------------------*/
@@ -914,6 +917,7 @@ section {
   display: flex;
   border: 1px solid;
   border-color: #f6a73c;
+  border-radius: 10px;
   align-items: center;
   padding: 20px;
   background: #f6f6f6;
@@ -1296,12 +1300,12 @@ section {
 }
 
 .contact .info {
-  color: #444444;
+  color: #fff;
 }
 
 .contact .info i {
   font-size: 32px;
-  color: #3498db;
+  color: #f8a83c;
   float: left;
   line-height: 1;
 }
@@ -1525,11 +1529,11 @@ section {
 # Footer
 --------------------------------------------------------------*/
 a {
-  color: #6c757d;
+  color: #f8a83c;
 }
 
 a:hover {
-  color: #fec503;
+  color: #ae1a05;
   text-decoration: none;
 }
 
@@ -1541,6 +1545,8 @@ a:hover {
 footer {
   padding: 4rem 0;
   background-color: #061121;
+      border-top: 1px solid;
+    box-shadow: 0px 0 10px rgb(3 38 88);
 }
 
 .footer-column:not(:first-child) {
