@@ -406,9 +406,10 @@ h6 {
 }
 
 #hero h2 {
-    color: #484848;
+    color: #f89a2b !important;
+    margin-top: 60px;
     margin-bottom: 50px;
-    font-size: 24px;
+    /* font-size: 24px; */
 }
 
 #hero .btn-get-started {
