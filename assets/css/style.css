@@ -606,9 +606,11 @@ section {
 .section-title h2::before,
 .section-title h2::after {
     content: '';
+    transform: rotate(90deg);
     width: 50px;
     height: 2px;
-    background: #ff2305;
+    padding: 2px;
+    background: #feab3d;
     display: inline-block;
 }
 
