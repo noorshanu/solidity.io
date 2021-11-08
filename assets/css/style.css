@@ -834,6 +834,14 @@ section {
     z-index: 1;
 }
 
+.serv-p {
+    border: 1px solid;
+    border-style: dotted;
+    width: 55%;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
 .services .icon-box::before {
     content: '';
     position: absolute;
