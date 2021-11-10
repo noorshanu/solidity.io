@@ -679,7 +679,7 @@ section {
 }
 
 #about img {
-    height: 301px;
+    height: 430px;
 }
 
 .about .content h3 {
@@ -715,20 +715,11 @@ section {
 }
 
 .about .content .btn-learn-more {
-    font-family: "Raleway", sans-serif;
-    font-weight: 600;
-    font-size: 14px;
-    letter-spacing: 1px;
-    display: inline-block;
-    padding: 12px 32px;
-    border-radius: 50px;
     transition: 0.3s;
     line-height: 1;
-    color: #3498db;
     -webkit-animation-delay: 0.8s;
     animation-delay: 0.8s;
     margin-top: 6px;
-    border: 2px solid #3498db;
 }
 
 .about .content .btn-learn-more:hover {
@@ -827,11 +818,21 @@ section {
     padding: 30px;
     position: relative;
     overflow: hidden;
-    background: #fff;
+    border-style: dotted;
     box-shadow: 0 0 29px 0 rgba(68, 88, 144, 0.12);
     transition: all 0.3s ease-in-out;
     border-radius: 8px;
     z-index: 1;
+}
+
+.arrow1 {
+    height: 150px;
+    position: absolute;
+    top: 12%;
+}
+
+.box1 {
+    margin-top: 40px;
 }
 
 .serv-p {
@@ -845,7 +846,7 @@ section {
 .services .icon-box::before {
     content: '';
     position: absolute;
-    background: #ffac3d8c;
+    background: #ffab3d27;
     right: -60px;
     top: -40px;
     width: 100px;
@@ -889,7 +890,7 @@ section {
 }
 
 .services .title a {
-    color: #111;
+    color: rgb(255, 255, 255);
 }
 
 .services .description {
@@ -912,7 +913,7 @@ section {
 }
 
 .description {
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
 
@@ -1757,6 +1758,41 @@ footer .quick-links {
 }
 
 .btn-new:after {
+    top: 50%;
+    transform: perspective(15px) rotateX(-8deg);
+    border-top: none;
+}
+
+.button {
+    position: relative;
+    display: block;
+    background: transparent;
+    width: 10%;
+    height: 8vh;
+    line-height: 50px;
+    text-align: center;
+    font-size: 20px;
+    margin: 40px auto;
+    border: none;
+    cursor: pointer;
+}
+
+.button:before,
+.button::after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    left: 0px;
+    height: 3vh;
+    border: 4px solid red;
+}
+
+.button:before {
+    transform: perspective(15px) rotateX(8deg);
+    border-bottom: none;
+}
+
+.button:after {
     top: 50%;
     transform: perspective(15px) rotateX(-8deg);
     border-top: none;
